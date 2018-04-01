@@ -1,2 +1,2 @@
 # my-dev-references
-Collection of my personal developer's references
+This repo contains a collection of my personal developer's references and tips.
