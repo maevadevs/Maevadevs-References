@@ -1,8 +1,8 @@
 # ESLint Setup
 
-## Synopsis
+## Overview
 
-- This setup uses a project-based (I avoid using global whenever possible) and uses `standard` as the example linting rule. 
+- This setup uses a project-based (I avoid using global whenever possible) and uses `standard` as the example linting rule. Other linting rules can be installed as devDependencies and added to the `.eslintrc`  afterwards
 - This setup provides commands for both `npm` and `yarn` as the package manager. You should only use one of them.
 - This setup uses VSCode as the editor.
 
@@ -24,18 +24,34 @@
 
 1. Add `.eslintrc`: This will also prompt to install the `standard` linting rules and its dependencies *through `npm`, regardless of using `yarn` or `npm`*. If you are continuing with `yarn`, after the installation, remove `node_modules` and `package-lock.json` and re-run `yarn install` to refresh your dependencies
 
+        # For NPM:
+        npm run eslint --init
+        
         # For Yarn:
         yarn run eslint --init
-        # Then, remove `node_modules` and `package-lock.json` and re-install dependencies
+        # Then, remove `node_modules` and `package-lock.json` and re-install dependencies with Yarn
         yarn install
         
         # .eslintrc after installation
-
         {
           "extends": "standard"
         }
 
-1. Setup for VSCode only: Install `ESLint` extension and change some settings: `Code > Preferences > Settings > USER SETTINGS`
+**Note:** If you prefer to manage your own linting rules instead, you can install them separately and add reference to a `.eslintrc` file in the project root
+
+        # For Yarn:
+        yarn add standard --dev
+        # For NPM:
+        npm install standard --save-dev
+        
+        # Add .eslintrc in the project root
+        {
+          "extends": "standard"
+        }
+
+### Additional Step for VSCode Users Only
+
+- One-time setup: Install `ESLint` extension and change some settings: `Code > Preferences > Settings > USER SETTINGS`
 
         "files.autoSave": "off", // This might already be the default in `DEFAULT SETTINGS`. If so, skip.
         "eslint.autoFixOnSave": true,
