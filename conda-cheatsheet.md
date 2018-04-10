@@ -60,7 +60,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda update anaconda</code></td>
-      <td>Update the anaconda meta package (the library of packages ready to install with conda command)</td>
+      <td>Update the anaconda meta package<br>(the library of packages ready to install with `conda` command)</td>
     </tr>
   </tbody>
 </table>
@@ -72,11 +72,11 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
   <tbody>
     <tr>
       <td><code>$ conda info --envs</code></td>
-      <td>Get a list of all my environments, active environment shown with *</td>
+      <td>Get a list of all my environments. Active environment is shown with `*`</td>
     </tr>
     <tr>
       <td><code>$ conda create --name [envname] [programname]</code></td>
-      <td>Create an environment and install program(s): To avoid dependency conflicts, install all programs in the environment at the same time. Environments install by default into the <code>envs</code> directory.</td>
+      <td>Create an environment and install program(s).<br>To avoid dependency conflicts, install all programs in the environment at the same time.<br>Environments install by default into the <code>envs</code> directory.</td>
     </tr>
     <tr>
       <td><code>$ source activate [envname]</code></td>
@@ -84,7 +84,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda create -n [envname] python=3.4 [programname]</code></td>
-      <td>Create a new environment, specify Python version</td>
+      <td>Create a new environment with a specific Python version</td>
     </tr>
     <tr>
       <td><code>$ conda create -n [newenvname] --clone [oldenvname]</code></td>
@@ -149,7 +149,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda install -n [envname] [packagename]</code></td>
-      <td>Install a new package (If you do not include the name of the new environment, it will install in the current active environment.</td>
+      <td>Install a new package<br>(If you do not include the name of the new environment,<br>it will install in the current active environment.</td>
     </tr>
     <tr>
       <td><code>$ conda update [packagename]</code></td>
@@ -157,7 +157,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda search --override-channels -c pandas [packagename]</code></td>
-      <td>Search for a package in a specific location (the pandas channel on Anaconda.org)</td>
+      <td>Search for a package in a specific location<br>(the pandas channel on Anaconda.org)</td>
     </tr>
     <tr>
       <td><code>$ conda install -c pandas [packagename]</code></td>
@@ -165,11 +165,11 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda search --override-channels -c defaults [packagename]</code></td>
-      <td>Search for a package to see if it is available from the Anaconda repository</td>
+      <td>Search for a package to see if it is available<br>from the Anaconda repository</td>
     </tr>
     <tr>
       <td><code>$ source activate [envname] $ pip install [packagename]</code></td>
-      <td>Activate the environment where you want to install a package and install it with pip (included with Anaconda and Miniconda)</td>
+      <td>Activate the environment where you want to install<br>a package and install it with pip<br>(included with Anaconda and Miniconda)</td>
     </tr>
   </tbody>
 </table>
