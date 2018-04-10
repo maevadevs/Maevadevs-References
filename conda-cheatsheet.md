@@ -43,7 +43,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
 
 <table>
   <thead>
-    <th colspan=2>For Managing Conda</th>
+    <th colspan=2 align="left">For Managing Conda</th>
   </thead>
   <tbody>
     <tr>
@@ -67,7 +67,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
   
 <table>
   <thead>
-    <th colspan=2>For Managing Envs</th>
+    <th colspan=2 align="left">For Managing Envs</th>
   </thead>
   <tbody>
     <tr>
@@ -107,7 +107,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
 
 <table>
   <thead>
-    <th colspan=2>For Managing Python</th>
+    <th colspan=2 align="left">For Managing Python</th>
   </thead>
   <tbody>
     <tr>
@@ -136,7 +136,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     
 <table>
   <thead>
-    <th colspan=2>For Managing Packages, Including Python</th>
+    <th colspan=2 align="left">For Managing Packages, Including Python</th>
   </thead>
   <tbody>  
     <tr>
@@ -176,7 +176,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     
 <table>
   <thead>
-    <th colspan=2>For Removing Packages, Envs, or Channels</th>
+    <th colspan=2 align="left">For Removing Packages, Envs, or Channels</th>
   </thead>
   <tbody>   
     <tr>
