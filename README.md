@@ -1,4 +1,4 @@
-# My Dev References
+# `maevadevs`' Developer References
 This repo contains a collection of my personal developer's references and tips.
 
 - [Conda: Cheatsheet](https://github.com/maevadevs/my-dev-references/blob/master/conda-cheatsheet.md)
