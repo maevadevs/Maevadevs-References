@@ -106,22 +106,6 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
 </table>
 
 <table>
-  <thead>
-    <th colspan=2 align="left">For Managing Python</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>$ conda search --full-name python</code></td>
-      <td>Check versions of Python available to install</td>
-    </tr>
-    <tr>
-      <td><code>$ conda create -n [envname] python=3.4</code></td>
-      <td>Install a different version of python in a new environment</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
   <tbody>
     <th colspan=2 align="left">For Managing <code>.condarc</code> Config File</th>
     <tr>
@@ -135,6 +119,22 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     <tr>
       <td><code>$ conda config --add channels pandas</code></td>
       <td>Add a new value to channels so<br>conda looks for packages in this location</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <th colspan=2 align="left">For Managing Python</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>$ conda search --full-name python</code></td>
+      <td>Check versions of Python available to install</td>
+    </tr>
+    <tr>
+      <td><code>$ conda create -n [envname] python=3.4</code></td>
+      <td>Install a different version of python in a new environment</td>
     </tr>
   </tbody>
 </table>
