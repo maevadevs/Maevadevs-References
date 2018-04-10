@@ -72,7 +72,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
   <tbody>
     <tr>
       <td><code>$ conda info --envs</code></td>
-      <td>Get a list of all my environments. Active environment is shown with `*`</td>
+      <td>Get a list of all my environments.<br>Active environment is shown with `*`</td>
     </tr>
     <tr>
       <td><code>$ conda create --name [envname] [programname]</code></td>
