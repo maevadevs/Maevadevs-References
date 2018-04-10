@@ -8,6 +8,5 @@ This repo contains a collection of my personal developer's references and tips.
 - [Node: Useful Management Commands](https://github.com/maevadevs/my-dev-references/blob/master/node-useful-mgmt-commands.md)
 - [Semver: Summary](https://github.com/maevadevs/my-dev-references/blob/master/semver-summary.md)
 - [Semver: Application For NPM Modules](https://github.com/maevadevs/my-dev-references/blob/master/semver-application-for-npm-modules.md)
-- [Semver: Programming Pattern Operators](https://github.com/maevadevs/my-dev-references/blob/master/
-semver-programming-pattern-operators.md)
+- [Semver: Programming Pattern Operators](https://github.com/maevadevs/my-dev-references/blob/master/semver-programming-pattern-operators.md)
 - [Vim: Helpful Commands](https://github.com/maevadevs/my-dev-references/blob/master/vim-helpful-commands.md)
