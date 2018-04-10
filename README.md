@@ -4,6 +4,7 @@ This repo contains a collection of my personal developer's references and tips.
 - [Conda: Cheatsheet](https://github.com/maevadevs/my-dev-references/blob/master/conda-cheatsheet.md)
 - [ESLint: Setup](https://github.com/maevadevs/my-dev-references/blob/master/eslint-setup.md)
 - [Expect: Cheatsheet](https://github.com/maevadevs/my-dev-references/blob/master/expect-cheatsheet.md)
+- [Git: Getting Started With Git and Github/Bitbucket](https://github.com/maevadevs/my-dev-references/blob/master/git-getting-started.md)
 - [Node: How to manage multiple node versions efficiently](https://github.com/maevadevs/my-dev-references/blob/master/node-how-to-manage-multiple-node-versions-efficiently.md)
 - [Node: Useful Management Commands](https://github.com/maevadevs/my-dev-references/blob/master/node-useful-mgmt-commands.md)
 - [Semver: Summary](https://github.com/maevadevs/my-dev-references/blob/master/semver-summary.md)
