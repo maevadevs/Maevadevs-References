@@ -129,7 +129,7 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
     </tr>
     <tr>
       <td><code>$ conda config --add channels pandas</code></td>
-      <td>Add a new value to channels so conda looks for packages in this location</td>
+      <td>Add a new value to channels so<br>conda looks for packages in this location</td>
     </tr>
   </tbody>
 </table>
