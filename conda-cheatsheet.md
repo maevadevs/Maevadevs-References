@@ -118,7 +118,12 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
       <td><code>$ conda create -n [envname] python=3.4</code></td>
       <td>Install a different version of python in a new environment</td>
     </tr>
-    <tr><td colspan=2><strong>MANAGING <code>.CONDARC</code> CONFIG FILE</strong></td></tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <th colspan=2 align="left">For Managing <code>.condarc</code> Config File</th>
     <tr>
       <td><code>$ conda config --get</code></td>
       <td>Get all keys and values from my <code>.condarc</code> file</td>
