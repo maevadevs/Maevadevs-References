@@ -4,11 +4,6 @@
 
 This is a simple summary of the [Semantic Versioning v2.0.0](http://semver.org/) official documentation.
 
-## Other Contents In This Repo
-
-- [Semver Programmatic Pattern Operators](pattern-operators.md)
-- [Application of Semver for NPM Modules](npm-semver.md)
-
 ## General Format
 
 `MAJOR.MINOR.PATCH-Pre1.Pre2.Pre3+Metadata.Option1.1234+Metadata.Option2.5678`
