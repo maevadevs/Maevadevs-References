@@ -7,5 +7,6 @@ This repo contains a collection of my personal developer's references and tips.
 - [Node: How to manage multiple node versions efficiently](https://github.com/maevadevs/my-dev-references/blob/master/node-how-to-manage-multiple-node-versions-efficiently.md)
 - [Node: Useful Management Commands](https://github.com/maevadevs/my-dev-references/blob/master/node-useful-mgmt-commands.md)
 - [Semver: Summary](https://github.com/maevadevs/my-dev-references/blob/master/semver-summary.md)
+- [Semver: Application For NPM Modules](https://github.com/maevadevs/my-dev-references/blob/master/semver-application-for-npm-modules.md)
 - [Vim: Helpful Commands](https://github.com/maevadevs/my-dev-references/blob/master/vim-helpful-commands.md)
 
