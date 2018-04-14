@@ -8,6 +8,18 @@ This command will upgrade the node version from one to another while transfering
 
 `nvm install 6.9.4 --reinstall-packages-from=6.8.0`
 
+## Updating All or Some Global Packages
+
+    sudo npm update -g
+
+For updating only one package
+
+    sudo npm update -g <packagename>
+
+For checking outdated packages
+
+    npm -g outdated
+
 ## Listing All Global Modules At Surface Level Only
 
 When you run `npm ls`, the listing will go very depth into the tree-structure of the modules. To get only the main root modules, run it with the `--depth=0` option.
