@@ -13,3 +13,4 @@ This repo contains a collection of my personal developer's references and tips.
 - [Semver: Application For NPM Modules](semver-application-for-npm-modules.md)
 - [Semver: Programming Pattern Operators](semver-programming-pattern-operators.md)
 - [Vim: Helpful Commands](vim-helpful-commands.md)
+- [Browser: Client Storage Options](client-storage-options.md)
