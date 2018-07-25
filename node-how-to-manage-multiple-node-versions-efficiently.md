@@ -118,6 +118,9 @@ To upgrade to a new version and move the global modules to the new version: (e.g
 <code>$ nvm install 6.9.4 --reinstall-packages-from=6.8.0</code><br>
 <code>$ nvm uninstall 6.8.0</code><br>
 
+A quick shortcut:
+<code>$ nvm install 6.9.4 --reinstall-packages-from=6.8.0 && nvm uninstall 6.8.0 && nvm use 6</code><br>
+
 And finally, to uninstall a version altogether, without upgrading:
 
 <code>$ nvm uninstall 6.8.0</code>
