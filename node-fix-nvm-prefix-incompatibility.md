@@ -21,6 +21,6 @@ So performed the following to ensure brew's node was gone:
 `sudo rm -rf  /usr/local/lib/node_modules`\
 `rm /usr/local/bin/npm`\
 `brew uninstall --force node`\
-`brew prune`\
+`brew prune`
 
 No more errors YAY!
