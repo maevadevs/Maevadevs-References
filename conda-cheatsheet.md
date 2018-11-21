@@ -62,6 +62,10 @@ Each package can be installed individually with <code>$ conda install PACKAGENAM
       <td><code>$ conda update anaconda</code></td>
       <td>Update the anaconda meta package<br>(the library of packages ready to install with `conda` command)</td>
     </tr>
+    <tr>
+      <td><code>$ conda update --all</code></td>
+      <td>Update all conda packages</td>
+    </tr>
   </tbody>
 </table>
   
