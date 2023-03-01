@@ -9,6 +9,7 @@ This repo contains a collection of my personal developer's references and tips.
 - [Node: Fix NVM Prefix Incompatibility](node-fix-nvm-prefix-incompatibility.md)
 - [Node: How to manage multiple node versions efficiently](node-how-to-manage-multiple-node-versions-efficiently.md)
 - [Node: Useful Management Commands](node-useful-mgmt-commands.md)
+- [Python: Match-Case in Python 3.10+](Match-Case-In-Python310+.ipynb)
 - [React: TestUtils Cheatsheet](react-testutils-cheatsheet.md)
 - [Semver: Summary](semver-summary.md)
 - [Semver: Application For NPM Modules](semver-application-for-npm-modules.md)
